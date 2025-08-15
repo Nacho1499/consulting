@@ -1,5 +1,5 @@
 'use client';
-
+import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
@@ -38,7 +38,8 @@ const Hero = () => {
             whileTap={{ scale: 0.98 }}
             className="bg-green-800 rounded-full text-white cursor-pointer py-3 px-5 hover:bg-green-700 transition"
           >
-            Book a Consultation
+            <Link href="/contact">Book a Consultation</Link>
+            
           </motion.button>
           <motion.button
             whileHover={{ scale: 1.05 }}

@@ -40,7 +40,8 @@ const services: ServiceItem[] = [
 
 const Service = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-20">
+    <div className='bg-gray-100'>
+    <section className="max-w-7xl mx-auto px-4 py-20 ">
         <div className='  hidden lg:flex gap-2 justify-center'>
           <div>
             <h1 className='h-4 w-4 bg-green-800 rounded-full animate-bounce sahdow-lg'></h1>
@@ -107,6 +108,7 @@ const Service = () => {
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

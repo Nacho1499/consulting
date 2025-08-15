@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const Offer = () => {
   return (
-    <section className='bg-gray-50'>
+    
     <section className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-10 py-20 px-4 lg:px-12">
       
       {/* Left Content */}
@@ -65,7 +65,7 @@ const Offer = () => {
       </motion.div>
 
     </section>
-    </section>
+    
   );
 };
 
