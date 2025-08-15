@@ -20,7 +20,7 @@ const services: ServiceItem[] = [
   },
   {
     id: 2,
-    image: "/con.jpg",
+    image: "/train.jpg",
     title: "Consultation & Training",
     description: "One-on-one sessions or workshops for brand growth."
   },
