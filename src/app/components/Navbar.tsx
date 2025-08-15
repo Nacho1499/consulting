@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
                     <Link href="/" className="">
                         Home
                     </Link>
-                    <Link href="" className="">
+                    <Link href="/about" className="">
                         About Us
                     </Link>
                     <Link href="/contact" className="">
@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
                         Home
                     </Link>
                     <Link
-                        href=""
+                        href="/about"
                         onClick={toggleMenu}
                         className="block "
                     >
@@ -80,7 +80,7 @@ const Navbar: React.FC = () => {
                         Contact
                     </Link>
                     <Link
-                        href="/contact"
+                        href=""
                         onClick={toggleMenu}
                         className="block"
                     >

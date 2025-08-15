@@ -29,7 +29,7 @@ const Page = () => {
           animate="visible"
           variants={fadeInUp}
           className="relative h-[40vh] bg-cover bg-center flex items-center justify-center lg:bg-fixed"
-          style={{ backgroundImage: "url('/world.webp')" }}
+          style={{ backgroundImage: "url('/train.jpg')" }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30 z-0" />
           <div className="relative z-10 text-center px-4">
